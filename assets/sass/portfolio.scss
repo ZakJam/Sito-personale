@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  border: 1px red solid;
+  height: 100px;
+  align-items: center;
+  img {
+    width: 150px;
+    height: 100px;
+    margin: 0;
+    border: 1px red solid;
+  }
+
+  ul {
+    list-style-type: none;
+    border: 1px red solid;
+  }
+  li {
+    float: left;
+    margin-left: 55px;
+  }
+}
