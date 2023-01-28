@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+/*---------------SCROLLBAR-----------*/
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.753);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(161, 34, 34, 0.753);
+}
+
 body {
   font-family: "Fjalla One", sans-serif;
 }
