@@ -114,7 +114,7 @@ a {
     height: 300px; }
   .flex1 div {
     font-size: larger;
-    text-align: left;
+    text-align: center;
     width: 500px;
     background-color: #a12222;
     padding: 5px;
@@ -124,5 +124,52 @@ a {
       margin-bottom: 25px; }
 
 /*-----------------COMPETENZE------------------------------*/
+.competenze {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #a12222;
+  align-items: center; }
+  .competenze h1 {
+    font-size: 50px;
+    position: relative;
+    top: 15vh;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px; }
+  .competenze p {
+    position: relative;
+    top: 16vh;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px; }
+
+.divcompetenze {
+  width: 95vw;
+  height: 60vh;
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .divcompetenze img {
+    height: 150px;
+    width: 150px;
+    background: white;
+    padding: 5px;
+    border-radius: 15px; }
+  .divcompetenze p {
+    position: relative;
+    top: 0; }
+
+.Secondodiv {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 150px;
+  margin-left: 15px; }
+  .Secondodiv p {
+    text-align: center;
+    border: 1px black solid; }
 
 /*# sourceMappingURL=portfolio.css.map */
