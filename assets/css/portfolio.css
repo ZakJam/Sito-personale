@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 /*---------------SCROLLBAR-----------*/
 ::-webkit-scrollbar {
@@ -44,9 +45,10 @@ body {
     list-style-type: none; }
   .menu li {
     float: left;
-    margin-left: 55px;
+    margin-left: 45px;
     font-size: 20px;
-    font-weight: 400; }
+    font-weight: 400;
+    padding: 5px; }
   .menu li:hover {
     background-color: red;
     border-radius: 18px;

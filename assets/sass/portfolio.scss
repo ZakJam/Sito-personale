@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /*---------------SCROLLBAR-----------*/
@@ -51,9 +52,10 @@ body {
   }
   li {
     float: left;
-    margin-left: 55px;
+    margin-left: 45px;
     font-size: 20px;
     font-weight: 400;
+    padding: 5px;
   }
 
   li:hover {
